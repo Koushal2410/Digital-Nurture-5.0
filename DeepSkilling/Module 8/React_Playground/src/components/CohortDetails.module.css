@@ -1,0 +1,24 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+.box dt {
+  font-weight: 500;
+  margin-top: 5px;
+  color: #aaa;
+}
+
+.box dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
