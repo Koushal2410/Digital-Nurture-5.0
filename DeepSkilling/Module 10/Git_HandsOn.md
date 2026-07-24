@@ -20,7 +20,7 @@ Configure the Git environment, set the default editor, initialize a repository, 
 2. **Configure Identity**:
    ```bash
    git config --global user.name "Koushal"
-   git config --global user.email "koushal@example.com"
+   git config --global user.email "koushal2005@gmail.com"
    ```
 
 3. **Verify Settings**:
@@ -28,7 +28,7 @@ Configure the Git environment, set the default editor, initialize a repository, 
    git config --list
    # Output:
    # user.name=Koushal
-   # user.email=koushal@example.com
+   # user.email=koushal2005@gmail.com
    ```
 
 4. **Integrate notepad++.exe as Default Editor**:
