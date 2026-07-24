@@ -31,13 +31,13 @@ const Ex5_CohortDashboard = () => {
               {cohort.name}
             </h3>
             <dl style={{ margin: 0 }}>
-              <dt className={styles.box.dt}>Status</dt>
+              <dt>Status</dt>
               <dd style={{ textTransform: 'capitalize' }}>{cohort.status}</dd>
 
-              <dt className={styles.box.dt}>Start Date</dt>
+              <dt>Start Date</dt>
               <dd>{cohort.startDate}</dd>
 
-              <dt className={styles.box.dt}>Duration</dt>
+              <dt>Duration</dt>
               <dd>{cohort.duration}</dd>
             </dl>
           </div>
